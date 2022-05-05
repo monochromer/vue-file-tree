@@ -133,6 +133,7 @@ export default {
     background-color: #39f;
     color: #fff;
     font: inherit;
+    cursor: pointer;
   }
 
   .app-view__loader {
