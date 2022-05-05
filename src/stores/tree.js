@@ -38,7 +38,7 @@ export const useTreeStore = defineStore({
       try {
         this.loading = true
 
-        const response = await fetch('/data.json')
+        const response = await fetch('./data.json')
 
         if (!response.ok) {
           throw response
